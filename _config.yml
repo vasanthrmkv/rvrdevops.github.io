@@ -1,0 +1,105 @@
+# --------------------
+# Site Settings
+# --------------------
+title: "RvRDevOps"
+title_separator: "|"
+subtitle: "DevOps & AWS Cloud Engineer"
+name: "Vasanth Raj Rajarajan"
+description: "DevOps & AWS Cloud Engineer specializing in CI/CD, cloud infrastructure, automation, and monitoring."
+url: "https://rvrdevops.github.io"
+baseurl: ""
+
+# --------------------
+# Theme
+# --------------------
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dark"
+
+# --------------------
+# Author Profile
+# --------------------
+author:
+  name: "Vasanth Raj Rajarajan"
+  avatar: "/assets/images/profile.png"   # optional
+  bio: "AWS & DevOps Engineer | CI/CD | Automation | Monitoring"
+  location: "Chennai,Tamil Nadu,India"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/rvrdevops"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "www.linkedin.com/in/vasanth-raj-rajarajan-b87b7131b"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:your-email@example.com"
+
+# --------------------
+# Defaults
+# --------------------
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+
+# --------------------
+# Plugins (GitHub Pages safe)
+# --------------------
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# --------------------
+# Pagination
+# --------------------
+paginate: 5
+paginate_path: /page:num/
+
+# --------------------
+# Markdown & Syntax Highlighting
+# --------------------
+markdown: kramdown
+highlighter: rouge
+
+# --------------------
+# SEO & Social
+# --------------------
+social:
+  type: Person
+  name: Vasanth Raj Rajarajan
+  links:
+    - https://github.com/vasanthrmkv/rvrdevops.github.io
+    - www.linkedin.com/in/vasanth-raj-rajarajan-b87b7131b
+
+# --------------------
+# Footer
+# --------------------
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/vasanthrmkv/rvrdevops.github.io"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "www.linkedin.com/in/vasanth-raj-rajarajan-b87b7131b"
+
+# --------------------
+# Exclusions
+# --------------------
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
